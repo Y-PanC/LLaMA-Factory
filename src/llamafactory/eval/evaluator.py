@@ -57,7 +57,7 @@ from .template import get_eval_template
 if TYPE_CHECKING:
     from numpy.typing import NDArray
 
-
+# 做个测试
 class Evaluator:
     def __init__(self, args: Optional[dict[str, Any]] = None) -> None:
         self.model_args, self.data_args, self.eval_args, finetuning_args = get_eval_args(args)
